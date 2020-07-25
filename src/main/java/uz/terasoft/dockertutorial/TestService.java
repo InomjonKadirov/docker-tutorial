@@ -22,7 +22,7 @@ public class TestService implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
 
-        Product product = new Product("testdocker", 34D);
+        Product product = new Product("testdocker2", 34D);
         productRepository.save(product);
     }
 }
